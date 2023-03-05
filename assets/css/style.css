@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    overflow: hidden;
+}
+
+.animations {
+    position: relative;
+}
+
+.move-left {
+    animation: moveLeft 3s linear infinite;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+}
+
+.move-left {
+    max-width: 500px;
+    height: 200px;
+    margin-top: 25px;
+    margin-left: 1150px;
+}
+
+.move-right {
+    animation: moveRight 3s linear infinite;
+    animation-timing-function: linear;
+    animation-duration: 10s;
+    margin-left: -580px;
+}
+
+.move-right {
+    max-width: 500;
+    height: 200px;
+    margin-top: 85px;
+}
